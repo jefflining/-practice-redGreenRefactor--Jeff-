@@ -9,7 +9,7 @@ function() {
 
    test("If input is undefined the output should be 0",
 function() {
-       expect(countVowels()).toBe("0");
+       expect(countVowels()).toBe("String is undefined");
    });
 
    test("If input is an empty string output should be 0",

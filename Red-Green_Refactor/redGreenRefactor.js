@@ -2,7 +2,7 @@ function countVowels(str) {
     let count = 0;
     if (str === undefined) {
         return ("String is undefined");
-    } else {
+    } else if (str !== undefined) {
         const formattedString = str.toLowerCase();
         for (let i = 0; i < formattedString.length; i++) {
             if (formattedString[i] === "a" || 
@@ -13,6 +13,7 @@ function countVowels(str) {
             ) {
                 count++;
             }
+        
         }
     }
     return count;
