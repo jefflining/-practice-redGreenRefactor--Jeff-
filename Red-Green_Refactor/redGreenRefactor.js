@@ -1,3 +1,18 @@
+// Minimal code from the Green phase:
+
+// function countVowels(str) {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === "a" || "e" || "i" || "o" || "u") {
+//         } {
+//             count++;
+//         }
+        
+//         }
+//         return count;
+//     }
+
+
 function countVowels(str) {
     let count = 0;
     if (str === undefined) {

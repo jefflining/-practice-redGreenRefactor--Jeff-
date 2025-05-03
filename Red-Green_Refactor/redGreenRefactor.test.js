@@ -1,13 +1,13 @@
 const countVowels = require('./redGreenRefactor.js');
 
-describe("My name is Jeff", function() {
+describe("The countVowels function", function() {
 
    test("check to see if My name is Jeff is the input that 4 is the output",
 function() {
        expect(countVowels("My name is Jeff")).toBe(4);
    });
 
-   test("If input is undefined the output should be 0",
+   test("If input is undefined the output should be String is undefined",
 function() {
        expect(countVowels()).toBe("String is undefined");
    });
